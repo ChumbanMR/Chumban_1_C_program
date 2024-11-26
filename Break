@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    // Loop to find and stop at a specific value
+    for (int i = 1; i <= 10; i++) {
+        if (i == 5) {
+            printf("Breaking the loop at i = %d\n", i);
+            break;  // Exit the loop when i equals 5
+        }
+        printf("i = %d\n", i);
+    }
+
+    printf("Loop ended.\n");
+    return 0;
+}
