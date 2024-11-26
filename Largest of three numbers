@@ -1,0 +1,23 @@
+Here are 10 simple C programs to help you understand control structures (decision-making and loops) along with their solutions:
+
+
+---
+
+1. Check if a Number is Positive, Negative, or Zero (if-else)
+
+#include <stdio.h>
+
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num > 0)
+        printf("The number is positive.\n");
+    else if (num < 0)
+        printf("The number is negative.\n");
+    else
+        printf("The number is zero.\n");
+
+    return0
+}
