@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int count = 1;
+
+    // Using a do-while loop to print numbers from 1 to 5
+    do {
+        printf("Count: %d\n", count);
+        count++;  // Increment the counter
+    } while (count <= 5);  // Condition is checked after executing the block
+
+    return 0;
+}
